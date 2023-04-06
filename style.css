@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 228, 228);
+    font-family: sans-serif;
+}
+.topo {
+    width: 100%;
+    height: 8vh;
+    font-size: 22px;
+    background: #461561;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topo p{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-capa img {
+    width: 100%;
+    height: 80vh;
+}
+.topo div {
+    width: 100%;
+    margin: 0 auto;
+}
+.topo span {
+    margin: 0 30px;
+}
+.topo a {
+    color: #4710c1;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 6px;
+    padding: 7px 15px;
+    border-radius: 1px 10px;
+}
+.secao {
+    width: 80%;
+    max-width: 1100px;
+    margin: 80px auto;
+}
+.secao h2 {
+    color: #261050;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.secao p {
+    width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 12px 0;
+}
+.secao img {
+    width: 100%;
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+.secao a {
+    color: #512a99;
+    text-decoration: none;
+}
+.galeria {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    margin: 0 auto 20px auto;
+}
+.galeria img {
+    width: 315px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.imagem-sombra {
+    box-shadow: 10px 10px 10px #939393;
+}
+.informacao {
+    margin: 15px auto;
+    text-align: center;
+}
+.rodape {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    background: #461561;
+    color: #fff;
+    padding: 14px;
+    box-sizing: border-box;
+}
+.nome-criador{
+    margin-top: 20px;
+}
+.nome-criador a{
+    color: #fff;
+    text-decoration: none;
+}
+@media (max-width: 640px){
+    .img-capa img{
+        width: 100%;
+        height: 60vh;
+    }
+    .topo{
+        width: 100%;
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topo p{
+        width: 100%;
+        background: #461561;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 442px){
+    .topo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topo p{
+        width: 100%;
+        background: #461561;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 436px){
+    .img-capa img{
+        width: 100%;
+        height: 40vh;
+    }
+}
